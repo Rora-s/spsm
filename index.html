@@ -1192,6 +1192,63 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
   </section>
 
  <!-- FAQ + Google Reviews: one compact, responsive section -->
+
+<!-- SEM SIMULATION -->
+<section id="sem-simulation" class="spsm-sem-section" aria-labelledby="sem-simulation-title">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="slbl">DIGITAL MARKETING</span>
+      <h2 class="stitle" id="sem-simulation-title">Simulasi <span>SEM</span></h2>
+      <div class="sline"></div>
+      <p class="sdesc mx-auto" style="max-width:760px;">
+        Simulasi sederhana Google Ads untuk memperkirakan jangkauan iklan, klik, dan konversi dengan budget maksimal <strong>Rp10.000 per hari</strong>.
+      </p>
+    </div>
+
+    <div class="spsm-sem-grid">
+      <div class="spsm-sem-card">
+        <div class="spsm-sem-head">
+          <span class="spsm-sem-badge">SIMULASI PEMBELAJARAN</span>
+          <h3>Atur parameter iklan</h3>
+          <p>Ubah CPC, CTR, dan conversion rate untuk melihat perkiraan hasil kampanye.</p>
+        </div>
+        <div class="spsm-sem-fields">
+          <label>Budget per hari<div class="spsm-sem-input"><span>Rp</span><input id="semBudget" type="number" min="1000" max="10000" value="10000"></div><small>Maksimal Rp10.000/hari</small></label>
+          <label>CPC rata-rata<div class="spsm-sem-input"><span>Rp</span><input id="semCpc" type="number" min="100" value="1500"></div><small>Perkiraan biaya setiap klik</small></label>
+          <label>CTR<div class="spsm-sem-input"><input id="semCtr" type="number" min="0.1" max="100" step="0.1" value="5"><span>%</span></div><small>Persentase tayangan menjadi klik</small></label>
+          <label>Conversion rate<div class="spsm-sem-input"><input id="semConv" type="number" min="0" max="100" step="0.1" value="8"><span>%</span></div><small>Persentase klik menjadi pesanan</small></label>
+        </div>
+        <button id="semCalculate" class="spsm-sem-button" type="button">HITUNG SIMULASI</button>
+        <p id="semStatus" class="spsm-sem-status" aria-live="polite"></p>
+      </div>
+
+      <div class="spsm-sem-card">
+        <div class="spsm-sem-head">
+          <span class="spsm-sem-badge">PERKIRAAN HASIL</span>
+          <h3>Dashboard kampanye</h3>
+          <p>Angka di bawah adalah estimasi untuk kebutuhan tugas dan perencanaan, bukan data iklan Google Ads sebenarnya.</p>
+        </div>
+        <div class="spsm-sem-metrics">
+          <div><small>Budget / bulan</small><strong id="semMonthly">Rp300.000</strong></div>
+          <div><small>Estimasi impression / hari</small><strong id="semImpressions">133</strong></div>
+          <div><small>Estimasi klik / hari</small><strong id="semClicks">6</strong></div>
+          <div><small>CTR</small><strong id="semCtrResult">5,0%</strong></div>
+          <div><small>Estimasi konversi / hari</small><strong id="semConversions">0,5</strong></div>
+          <div><small>Estimasi biaya / konversi</small><strong id="semCpa">Rp18.750</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="spsm-sem-keywords">
+      <div><span class="spsm-sem-badge">TARGET KEYWORD</span><h3>Keyword iklan</h3></div>
+      <div class="spsm-sem-tags">
+        <span>soto murah di Solo</span><span>soto di Surakarta</span><span>soto Jebres Solo</span><span>warung soto Solo</span><span>kuliner murah Solo</span><span>soto ayam Solo</span>
+      </div>
+    </div>
+    <p class="spsm-sem-note">Catatan: simulasi ini tidak menjalankan iklan dan tidak menggunakan saldo Google Ads. Kampanye nyata tetap dibuat dan dibayar melalui Google Ads.</p>
+  </div>
+</section>
+
 <section id="faq" class="spsm-contact-hub" aria-labelledby="spsm-contact-title">
   <div class="container">
 
